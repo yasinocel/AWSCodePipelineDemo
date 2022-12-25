@@ -19,7 +19,6 @@ phases:
       
   post_build:
     commands:
-      - echo ASPNETCORE_ENVIRONMENT is $ASPNETCORE_ENVIRONMENT
       - echo Publish started on `date`
       - dotnet publish -c Release -r linux-x64 --self-contained false AWSCodePipelineDemo.csproj
       
