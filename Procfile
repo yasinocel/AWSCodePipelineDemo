@@ -1,1 +1,1 @@
-﻿web: dotnet ./app/AWSCodePipelineDemo.dll
+﻿web: dotnet exec ./AWSCodePipelineDemo.dll --urls http://0.0.0.0:5000/
