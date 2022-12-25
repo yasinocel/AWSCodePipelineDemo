@@ -15,7 +15,8 @@ namespace AWSCodePipelineDemo.Controllers
             {
                 "Pantolon",
                 "Ayakkabı",
-                "Gömlek"
+                "Gömlek",
+                "Ceket",
             };
 
             return Ok(products);
